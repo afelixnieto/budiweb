@@ -14,10 +14,73 @@
 	white-space: nowrap;
 
 
-	&.btn:hover{
+	&:hover{
 		border: 1px solid darken(#f6f6f6, 15%);
 		background: #efefef;
 	}
 
 }
+.verde {
+	background: $verde;
+	border: 1px solid darken($verde, 5%);
+	color: #fff;
 
+	&:hover{
+		background: darken($verde, 8%);
+		border: 1px solid darken($verde, 25%);
+
+	}
+	&:focus{
+		outline:0;
+		background: darken($verde, 10%);
+		border: 1px solid darken($verde, 25%);
+
+	}
+}
+.rojo {
+	background: $rojo;
+	border: 1px solid darken($rojo, 5%);
+	color: #fff;
+
+	&:hover{
+		background: darken($rojo, 8%);
+		border: 1px solid darken($rojo, 25%);
+
+	}
+	&:focus{
+		outline:0;
+		background: darken($rojo, 10%);
+		border: 1px solid darken($rojo, 25%);
+
+	}
+}
+.azul {
+	background: $azul;
+	border: 1px solid darken($azul, 5%);
+	color: #fff;
+
+	&:hover{
+		background: darken($azul, 8%);
+		border: 1px solid darken($azul, 25%);
+
+	}
+	&:focus{
+		outline:0;
+		background: darken($azul, 10%);
+		border: 1px solid darken($azul, 25%);
+
+	}
+}
+/*Experimental*/
+.ex {
+	font-weight: normal;
+	outline: 0;
+	border: 1px solid #3079ed;
+	color: #fff;
+	background-color: #4d90fe;
+	background-image: linear-gradient(top,#4d90fe,#4787ed);
+	&:hover{
+		border: 1px solid #2f5bb7;
+		background-color: #357ae8;
+	}
+}
