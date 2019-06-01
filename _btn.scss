@@ -1,0 +1,21 @@
+.btn {
+	  vertical-align: middle;
+    user-select: none;
+	  display: inline-block;
+	  padding: rem-calc(6) rem-calc(10);
+	  background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 1px;
+    color: #5F6368;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: inherit;
+    text-align: center;
+    white-space: nowrap;
+
+	&.btn:hover{
+      	border: 1px solid darken(#f6f6f6, 15%);
+    	  background: #efefef;
+	}
+
+}
