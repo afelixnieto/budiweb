@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+body {
+  font-family: $body-font;
+  font-size: $body-font-size;
+  line-height: $body-line-height;
+}
+
+a {
+  color: darken($azul, 5%);
+  text-decoration: none;
+
+  &:hover {
+    color: $rojo;
+    text-decoration: underline;
+  }
+}
