@@ -19,6 +19,11 @@
 		background: #efefef;
 	}
 
+	&.mini {
+		padding: rem-calc(4) rem-calc(8);
+		font-size: $body-font-size - 1;
+	}
+
 }
 .verde {
 	background: $verde;
@@ -26,14 +31,15 @@
 	color: #fff;
 
 	&:hover{
-		background: darken($verde, 8%);
-		border: 1px solid darken($verde, 25%);
+		background: darken($verde, 3%);
+		border: 1px solid darken($verde, 8%);
+		color: #fff;
 
 	}
 	&:focus{
 		outline:0;
-		background: darken($verde, 10%);
-		border: 1px solid darken($verde, 25%);
+		background: darken($verde, 3%);
+		border: 1px solid darken($verde, 8%);
 
 	}
 }
@@ -45,6 +51,7 @@
 	&:hover{
 		background: darken($rojo, 8%);
 		border: 1px solid darken($rojo, 25%);
+		color: #fff;
 
 	}
 	&:focus{
@@ -62,6 +69,7 @@
 	&:hover{
 		background: darken($azul, 8%);
 		border: 1px solid darken($azul, 25%);
+		color: #fff;
 
 	}
 	&:focus{
@@ -82,5 +90,6 @@
 	&:hover{
 		border: 1px solid #2f5bb7;
 		background-color: #357ae8;
+		color: #fff;
 	}
 }
