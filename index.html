@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/budiweb.css">
+	<title>Plantilla!</title>
+</head>
+<body>
+
+<nav class="container border x-top">
+	<div id="nav">
+		<div class="item1"><a href="#"  id="add-mostrar" class="btn mini azul">Enviar solicitud</a></div>
+	</div>
+</nav>
+
+
+
+
+	<div class="container">
+		<div class="row column middle">
+
+			<p class="logo">Budiweb</p>
+
+			<form action="" class="row">
+				<input type="search" class="ipt ancho">
+				<button class="btn ex">Buscar</button>
+			</form>
+
+			<p><a href="#">Enviar solicitud</a></p>
+
+		</div>
+
+
+		<!-- add -->
+		<div class="row column middle" id="add" style="display: none;">
+			<p><u>Formulario para enviar una solicitud.</u></p>
+			<p>Introducir URL del sitio Web</p>
+			<form action="" class="row">
+				<input type="url" class="ipt ancho" placeholder="http://">
+				<button class="btn verde">Enviar</button>
+			</form>
+		</div>
+
+
+
+	</div>
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script>
+
+		$( "a#add-mostrar" ).click(function() {
+	
+			$( "div#add" ).toggle();
+		});
+
+	</script>
+
+</body>
+</html>
