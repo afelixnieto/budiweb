@@ -1,0 +1,38 @@
+
+#nav {
+	display: flex;
+	
+	justify-content: flex-end;
+
+	padding: rem-calc(7);
+
+	>.item1{
+		flex: 1 0 1;
+		padding: rem-calc(2);
+		& a {
+		text-decoration: none;
+	}
+
+	}
+	>.item2{
+		flex: 1 0 1;
+		padding: rem-calc(2);
+		& a {
+		text-decoration: none;
+	}
+	}
+
+}
+
+
+.x-top {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+}
+
+.border {
+	
+	box-shadow: 1px 1px 3px #00000018;
+}
